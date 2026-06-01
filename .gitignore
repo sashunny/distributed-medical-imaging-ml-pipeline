@@ -1,5 +1,5 @@
-# models
-models
-
 # data dir
-data
+data/alzheimers_data
+data/MRI_brain_tumor/brain_tumor_dataset
+data/MRI_brain_tumor/no
+data/MRI_brain_tumor/yes

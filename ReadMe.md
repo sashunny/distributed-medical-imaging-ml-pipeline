@@ -1,5 +1,10 @@
 # Distributed Medical Imaging ML Pipeline
 
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+![PySpark](https://img.shields.io/badge/PySpark-4.12-orange)
+![Docker](https://img.shields.io/badge/Docker-Enabled-blue)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+
 A scalable machine learning pipeline for MRI image processing built using PySpark, Spark SQL, Scikit-Learn, and Docker. The project demonstrates end-to-end ML engineering workflows including data ingestion, distributed feature extraction, batch inference, model evaluation, and analytics on medical imaging dataset (the basic example uses Brain Tumor MRI scans but can easlily be extended).
 
 ## Overview
@@ -46,6 +51,9 @@ Dataset used:
 **Brain MRI Images for Brain Tumor Detection**
 
 The project uses the [Kaggle Brain Tumor Detection Dataset](https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection) for training and evaluation.
+
+The dataset remains the property of its original authors and is used here solely for educational and 
+research purposes.
 
 Classes:
 
@@ -344,3 +352,7 @@ docker run distributed-mri-pipeline
 - Kubernetes deployment
 
 ---
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.

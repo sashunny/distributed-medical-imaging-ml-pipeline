@@ -45,6 +45,8 @@ Dataset used:
 
 **Brain MRI Images for Brain Tumor Detection**
 
+The project uses the [Kaggle Brain Tumor Detection Dataset](https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection) for training and evaluation.
+
 Classes:
 
 - yes → Tumor Present
